@@ -1,6 +1,6 @@
 ---
 summary: "<What happened, why, and what was done, in one or two sentences.>"
-status: historical
+status: current
 updated: <YYYY-MM-DD>
 ---
 # <What happened> (<YYYY-MM-DD>)
@@ -15,7 +15,8 @@ Up: [history](README.md).
 
 ## Why
 
-<The cause, with the evidence. For a decision: the options considered and why this one won.>
+<The cause, with the evidence. For a decision: the options considered, why this one won, how strong the
+evidence is, and what would change it.>
 
 ## What we did
 

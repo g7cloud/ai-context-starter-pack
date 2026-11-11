@@ -25,6 +25,8 @@ AGENTS.md                  the instructions every AI tool reads at the start of 
 CLAUDE.md                  one line that points Claude at AGENTS.md
 context/
   README.md                the map: what the project is, its rules, its topics
+  now.md                   where the work stands: in progress, next, blocked, open questions
+  setup.md                 first setup, and bringing in what the project already has
   how-this-works.md        the full rules for keeping the tree (the assistant opens it when needed)
   learnings/               short lessons and corrections, read every session
   history/                 dated records: what went wrong, what was decided, what changed
@@ -51,6 +53,8 @@ inside and where to start:
 - **Small files.** One question per document, 20,000 characters at most. A document that grows past that is
   split into a folder of smaller ones.
 - **One home for each fact.** The assistant updates the document that exists and links to it from elsewhere.
+- **Written as it goes.** Decisions, findings and where the work stands are saved when they happen, so a
+  session that is cut off loses little. Anything you asked for that will be used again is saved as a document.
 - **Nothing true is deleted.** What stops being true moves to `history/` or is marked as replaced.
 - **No secrets.** Passwords and keys are never written down, only where they are kept.
 
@@ -59,6 +63,8 @@ inside and where to start:
 | Say | What happens |
 |---|---|
 | "Set up the context for this project." | It fills in the map and writes the first documents. |
+| "Where are we?" or "Carry on." | It reads `now.md` and picks up where the last session stopped. |
+| "Research … and save what you find." | It writes a findings document: each finding with its source, date and how sure we are. |
 | "Remember that …" | It adds a line to the learnings list that every later session reads. |
 | "From now on, never …" | It adds a rule to the map, with the reason. |
 | "Write up what just went wrong." | It writes a dated record in `history/`, and changes the rule or routine if there is a lesson. |

@@ -14,14 +14,14 @@ updated: <YYYY-MM-DD>
 
 Every session follows these, whatever the task. Each has its reason, so nobody removes it by accident.
 
-1. **<The rule.>** <Why: what went wrong or what it protects, with a date.>
+1. **<The rule.>** <Why: what went wrong or what it protects, with its date. "Reason not given" if it was not.>
 
 ## Where the truth is
 
 When a document here and the real thing disagree, the real thing wins. This is where to look.
 
 - **<What>:** <where to check it: a page, a tool, a report, a command, a person>.
-- **Passwords and keys:** <where they are kept>. Never their values.
+- **Passwords and keys:** <where they are kept>. Never their values. Delete this line if the work needs none.
 
 ## Everyday routines
 
@@ -45,9 +45,9 @@ section once everything lives in a topic.>
 
 ## Always here
 
-[Learnings](learnings/README.md) (read every session) · [History](history/README.md) (what happened) ·
-[Plans](plans/README.md) (not done yet) · [How this works](how-this-works.md) and [templates](templates/)
-(how this tree is kept).
+[Where we are](now.md) and [learnings](learnings/README.md) (both read every session) · [History](history/README.md) (what happened) ·
+[Plans](plans/README.md) (not done yet) · [How this works](how-this-works.md), [setup](setup.md) and
+[templates](templates/) (how this tree is kept).
 
 ## Words we use
 
